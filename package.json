@@ -1,0 +1,16 @@
+{
+  "name": "aws-iot-simulated-device",
+  "version": "0.0.1",
+  "description": "📟 A simple device simulator for use with AWS IoT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brendan Myers",
+  "license": "MIT",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.0.1",
+    "keypress": "^0.2.1"
+  }
+}
