@@ -5,7 +5,7 @@ module.exports = {
     aws: {
         keyPath  : "<path to private key>",
         certPath : "<path to certificate>",
-        caPath   : "<path to root CA certificate",
+        caPath   : "<path to root CA certificate>",
         clientId : "<client identifier>",
         host     : "<custom endpoint>"
     }
