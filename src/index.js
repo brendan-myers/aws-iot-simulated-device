@@ -1,6 +1,6 @@
 const awsIot = require('aws-iot-device-sdk');
 const config = require('../config');
-const LightBulb = require('./LightBulb');
+const LightBulb = require('./lightbulb');
 const keypress = require('keypress');
 
 const lightbulb = new LightBulb({
